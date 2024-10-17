@@ -1,0 +1,39 @@
+.weather-card {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 10px;
+   max-width: 400px;
+   margin: 20px auto;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.city-name {
+   font-size: 1.8rem;
+}
+
+.weather-info {
+   display: flex;
+   flex-direction: column;
+}
+
+.temperature {
+   font-size: 2rem;
+   margin-bottom: 10px;
+}
+
+.details {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 10px;
+}
+
+/* Dark mode styles */
+.dark .weather-card {
+   background-color: #444;
+   color: #fff;
+}
+
+.dark body {
+   background-color: #333;
+   color: #fff;
+}

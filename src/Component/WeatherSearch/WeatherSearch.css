@@ -1,0 +1,39 @@
+.weather-search {
+   display: flex;
+   justify-content: center;
+   margin: 20px 0;
+}
+
+.weather-search input {
+   width: 250px;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 1rem;
+   font-family: 'Kanit', sans-serif;
+}
+
+.weather-search button {
+   padding: 10px 15px;
+   margin-left: 10px;
+   border: none;
+   border-radius: 5px;
+   background-color: #ff6b6b;
+   color: white;
+   cursor: pointer;
+   font-size: 1rem;
+   font-family: 'Kanit', sans-serif;
+}
+
+.weather-search button:hover {
+   background-color: #ff4c4c;
+}
+
+.weather-search input:focus {
+   outline: none;
+   border-color: #ff6b6b;
+}
+
+.weather-search button:focus {
+   outline: none;
+}

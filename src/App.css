@@ -1,0 +1,33 @@
+.app {
+   text-align: center;
+   padding-top: 20px;
+   min-height: 100vh;
+}
+
+
+.app.dark {
+   background-color: #333;
+   color: #fff;
+}
+
+.app-header h1 {
+   font-size: 2rem;
+}
+
+.error-message {
+   color: red;
+}
+
+.weather-search input {
+   padding: 10px;
+   margin-right: 10px;
+   border-radius: 5px;
+}
+
+.weather-search button {
+   padding: 10px;
+   border-radius: 5px;
+   background-color: #ff6b6b;
+   color: #fff;
+   cursor: pointer;
+}
